@@ -31,3 +31,10 @@ npm init
 ```sh
 npx prisma db seed
 ```
+
+# Database Migration (Example)
+
+```sh
+npx prisma migrate dev --name init_database
+npx prisma migrate dev --name add_created_at
+```
